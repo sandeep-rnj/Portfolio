@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="text-center space-y-6">
           {/* Name and Title */}
           <div>
-            <h3 className="text-xl font-bold text-foreground mb-2">Your Name Here</h3>
+            <h3 className="text-xl font-bold text-foreground mb-2">Sandeep Ranjan</h3>
             <p className="text-muted-foreground">Software Developer | Full Stack Engineer</p>
           </div>
 
