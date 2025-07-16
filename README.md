@@ -8,7 +8,7 @@ Welcome to my personal portfolio! I'm a **Full Stack Developer** passionate abou
 ## 🚀 Live Demo
 
 👉 [Visit Portfolio](https://portfoliosandeeprnj.netlify.app/)  
-*(Replace with your live URL if hosted)*
+
 
 ---
 
