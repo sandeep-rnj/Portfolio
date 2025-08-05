@@ -33,16 +33,19 @@
     --input: 220 14% 92%;
     --ring: 248 63% 60%;
 
+    /* 💎 GLASSMORPHISM SUPPORT */
+    --glass-bg: hsl(0 0% 100% / 0.15);
+    --glass-border: hsl(0 0% 100% / 0.2);
+    --glass-blur: blur(16px);
+    --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+
+    /* 🎨 Gradients */
     --hero-gradient: linear-gradient(135deg, hsl(248 63% 60%), hsl(248 75% 68%));
-    --card-gradient: linear-gradient(135deg, hsl(0 0% 100%), hsl(220 25% 98%));
     --text-gradient: linear-gradient(135deg, hsl(248 63% 60%), hsl(248 73% 50%));
-    --shadow-elegant: 0 20px 40px -12px hsl(248 63% 60% / 0.2);
-    --shadow-soft: 0 8px 32px -8px hsl(222 22% 15% / 0.08);
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --radius: 0.6rem;
+    --transition-smooth: all 0.3s ease-in-out;
+    --radius: 0.75rem;
 
-    /* Sidebar-specific variables */
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 220 15% 20%;
     --sidebar-primary: 248 63% 60%;
@@ -82,6 +85,11 @@
     --input: 222 25% 14%;
     --ring: 210 100% 75%;
 
+    --glass-bg: hsl(0 0% 100% / 0.08);
+    --glass-border: hsl(0 0% 100% / 0.12);
+    --glass-blur: blur(20px);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
     --sidebar-background: 224 71% 4%;
     --sidebar-foreground: 220 14% 96%;
     --sidebar-primary: 210 100% 75%;
@@ -97,6 +105,6 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground transition-colors duration-300 ease-in-out;
   }
 }
