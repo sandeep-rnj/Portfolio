@@ -40,9 +40,6 @@ const Footer = () => {
 
           {/* Copyright and Credits */}
           <div className="pt-6 border-t border-border space-y-2">
-            <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
-              Made with <Heart className="h-4 w-4 text-red-500 fill-current" /> using React & Tailwind CSS
-            </p>
             <p className="text-xs text-muted-foreground">
               © {2025} Sandeep Ranjan. All rights reserved.
             </p>
