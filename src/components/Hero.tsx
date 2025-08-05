@@ -21,7 +21,7 @@ const Hero = () => {
       }}
     >
       <div className="container mx-auto px-6 text-center text-white relative z-10">
-        <div className="animate-fade-in">
+        <div className="animate-fade-in max-w-3xl mx-auto bg-[var(--glass-bg)] backdrop-blur-[var(--glass-blur)] border border-[var(--glass-border)] shadow-[var(--glass-shadow)] rounded-xl p-8">
           <div className="mb-8">
             <img 
               src={profilePlaceholder}
@@ -64,7 +64,7 @@ const Hero = () => {
             </Button>
           </div>
           
-          <div className="flex justify-center space-x-6 mb-12">
+          <div className="flex justify-center space-x-6 mb-4">
             <a href="tel:7903744430" className="text-white/80 hover:text-primary-glow transition-all hover:scale-110">
               <Phone className="h-6 w-6" />
             </a>
@@ -79,7 +79,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        
+
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <Button 
             variant="ghost" 
