@@ -70,7 +70,7 @@ const About = () => {
               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  Based in Greater Noida, UP
+                  Based in Noida, UP
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
