@@ -44,13 +44,13 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-20 bg-muted/50">
+    <section id="experience" className="py-20 bg-muted/40">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             Experience
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-slate-400 max-w-2xl mx-auto">
             Professional experience and internships that have shaped my development journey.
           </p>
         </div>
@@ -64,24 +64,26 @@ const Experience = () => {
               <CardHeader className="pb-4">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div>
-                    <CardTitle className="text-xl font-bold text-white flex items-center gap-2">
-                      <Building className="h-5 w-5 text-indigo-400" />
+                    <CardTitle className="text-xl font-bold text-slate-100 flex items-center gap-2">
+                      <Building className="h-5 w-5 text-indigo-300" />
                       {exp.role}
                     </CardTitle>
-                    <p className="text-indigo-300 font-semibold text-lg mt-1">{exp.company}</p>
+                    <p className="text-indigo-200 font-medium text-md mt-1">
+                      {exp.company}
+                    </p>
                   </div>
 
-                  <div className="flex flex-col sm:flex-row gap-2 text-sm text-muted-foreground">
+                  <div className="flex flex-col sm:flex-row gap-2 text-sm text-indigo-200">
                     <Badge
                       variant="outline"
-                      className="bg-indigo-400/10 text-indigo-300 border-indigo-400/20"
+                      className="bg-indigo-600/10 text-indigo-200 border-indigo-400/20"
                     >
                       <Calendar className="h-3 w-3 mr-1" />
                       {exp.duration}
                     </Badge>
                     <Badge
                       variant="outline"
-                      className="bg-muted text-muted-foreground border border-muted-foreground/10"
+                      className="bg-slate-700/20 text-slate-200 border border-slate-500/20"
                     >
                       <MapPin className="h-3 w-3 mr-1" />
                       {exp.location}
@@ -90,12 +92,12 @@ const Experience = () => {
                 </div>
               </CardHeader>
 
-              <CardContent className="pt-0 text-muted-foreground">
+              <CardContent className="pt-0 text-slate-300">
                 <p className="mb-4">{exp.description}</p>
 
                 <div className="space-y-3">
-                  <h4 className="font-semibold text-white">Key Responsibilities:</h4>
-                  <ul className="space-y-2 list-disc list-inside">
+                  <h4 className="font-semibold text-slate-100">Key Responsibilities:</h4>
+                  <ul className="space-y-2 list-disc list-inside text-slate-300">
                     {exp.responsibilities.map((item, idx) => (
                       <li key={idx}>{item}</li>
                     ))}
@@ -103,13 +105,13 @@ const Experience = () => {
                 </div>
 
                 <div className="mt-6">
-                  <h4 className="font-semibold text-white mb-3">Technologies Used:</h4>
+                  <h4 className="font-semibold text-slate-100 mb-3">Technologies Used:</h4>
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, idx) => (
                       <Badge
                         key={idx}
                         variant="outline"
-                        className="bg-white/10 text-indigo-200 border-indigo-300/20"
+                        className="bg-indigo-500/10 text-indigo-200 border-indigo-400/30"
                       >
                         {tech}
                       </Badge>
