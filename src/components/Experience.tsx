@@ -25,7 +25,7 @@ const Experience = () => {
                     <Building className="h-5 w-5 text-primary" />
                     Associate Software Developer Intern
                   </CardTitle>
-                  <p className="text-primary font-semibold text-lg mt-1">Hybrid (Qlimber Tech)</p>
+                  <p className="text-primary font-semibold text-lg mt-1">QlimberTech Consulting (Hybrid )</p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-2 text-sm text-muted-foreground">
                   <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
