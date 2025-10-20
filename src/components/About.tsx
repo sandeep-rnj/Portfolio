@@ -7,7 +7,7 @@ const About = () => {
     {
       title: "Frontend",
       icon: Code,
-      skills: ["JavaScript", "ReactJS", "Bootstrap", "TailwindCSS"],
+      skills: ["JavaScript", "ReactJS", "TypeScript", "TailwindCSS"],
       color: "bg-blue-500/10 text-blue-600 border-blue-200"
     },
     {
