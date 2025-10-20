@@ -31,7 +31,7 @@ const Experience = () => {
                 <div className="flex flex-col sm:flex-row gap-2 text-sm text-muted-foreground">
                   <Badge variant="outline" className="bg-primary/10 text-primary border-primary/20">
                     <Calendar className="h-3 w-3 mr-1" />
-                    July 2025 – Present
+                    July 2025 – September 2025
                   </Badge>
                   <Badge variant="outline" className="bg-muted text-muted-foreground">
                     <MapPin className="h-3 w-3 mr-1" />
